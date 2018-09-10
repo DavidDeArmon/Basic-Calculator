@@ -1,7 +1,7 @@
 
 .App {
   text-align: center;
-  font-family: Tahoma, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   background-color: lightgray;
   height:100%;
 }
@@ -20,11 +20,19 @@ header{
   padding: 20px;
   color: white;
 }
+footer{
+  float:left;
+  width:100%;
+  background-color: #222;
+  height:40px;
+  font-size: 18px;
+  color:white;
+}
 
 .Boxes {
   color:white;
   width:50%;
-  height:799px;
+  height:759px;
   background-color: rgb(64, 69, 97);
   float:left;
   margin-left:25%;
@@ -34,7 +42,6 @@ header{
   background-color: rgb(53, 53, 75);
   height:50px;
   padding-top:10px;
-  padding-left:5%;
 }
 
 @keyframes App-logo-spin {
